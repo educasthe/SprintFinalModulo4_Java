@@ -9,7 +9,10 @@
 
 ## COMENTARIOS
 
-Se incluye clase Validación para establecer los métodos de validación de datos solicitados
+Se incluye clase Validación para establecer los métodos de validación de datos solicitados.
+Se obtó por dejar solo la clase Usuario (padre) con el RUT, para que las clases hijas (Cliente) hereden este atributo.
+La clase Usuario tiene la fecha de nacimiento, por ende la clase Cliente no tiene actributo edad, en caso de requerirse
+se calcula a traves de un método.
 
 ## CONTEXTO
 
